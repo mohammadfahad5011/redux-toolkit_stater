@@ -4,7 +4,7 @@ const counterReducer = require("../features/counter/CounterSlice");
 
 const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    balCounter: counterReducer,
   },
 });
 

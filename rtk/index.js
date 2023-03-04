@@ -6,12 +6,7 @@ store.subscribe(() => {
   console.log(store.getState());
 });
 
-store.dispatch(counterAction.increment());
-store.dispatch(counterAction.increment());
-store.dispatch(counterAction.increment());
-store.dispatch(counterAction.increment());
+store.dispatch(counterAction.increment(5));
+store.dispatch(counterAction.increment(10));
 
-store.dispatch(counterAction.decrement());
-store.dispatch(counterAction.decrement());
-
-store.dispatch(counterAction.decrement());
+//
